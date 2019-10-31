@@ -20,5 +20,5 @@ var selectName = function() {
     var currentName = "Betty";
     return currentName
 }
-var filteredNames = nameFilter(currentName)
+var filteredNames = nameFilter(selectName()) // pure function - replace a function within itself
 console.log(filteredNames)
